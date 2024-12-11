@@ -25,7 +25,7 @@ function footer() {
            <li className='list-none flex flex-col justify-center items-start gap-[10px]'>
             <ul className='text-[14px] font-["inter"] tracking-wide font-normal text-left  text-[#5F6980]'>Terms of policy</ul>
             <ul className='text-[14px] font-["inter"] tracking-wide font-normal text-left  text-[#5F6980]'>Privacy Policy</ul>
-            <ul className='text-[14px] font-["inter"] tracking-wide font-normal text-left  text-[#5F6980]'>SErvices</ul>
+            <ul className='text-[14px] font-["inter"] tracking-wide font-normal text-left  text-[#5F6980]'>Services</ul>
             
            </li>
            </div>

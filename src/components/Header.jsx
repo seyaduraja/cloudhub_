@@ -16,7 +16,7 @@ function Header() {
   };
   return (
 
-    <header className='flex flex-col justify-center items-center w-[100%] h-[600px] lg:h-[100vh] ' >
+    <header className='flex flex-col justify-center items-center w-[100%] h-[700px] lg:h-[100vh] ' >
         <div className="h-16 flex justify-between items-center  w-[100%] lg:px-[50px]  ">
 
 
@@ -54,14 +54,15 @@ function Header() {
 
         </div>
 
-      <div className=' md:absolute  md:top-0 lg:top-[60px] w-[400px] md:w-[70%] flex flex-col justify-center items-left lg:items-center gap-[15px]'>
+      <div className=' md:absolute  md:top-0 lg:top-[60px] w-[400px] md:w-[70%] flex flex-col justify-center items-left lg:items-center gap-[25px]'>
         <h1 className=' text-[40px] lg:text-[70px] font-["inter"] font-semibold text-left lg:text-center text-[#171717] ' >Create, inspect, and apply synthetic surveillance broadly.</h1>
         <p className='text-[15px] font-["inter"] tracking-wide font-normal text-left lg:text-center text-[#5F5F5F]'>Start with a stunning homepage. Stay motivated without hurting your pocket.</p>
         <button className='w-[153px] h-[40px] rounded-[39px] bg-gradient-to-r from-[#FB432C] to-[#FF591E] text-white font-["inter"]'>Start for free</button>
+        <img src= {text} alt="" className = "hidden md:block" />
       </div>
 
-      <div className='block md:hidden'>
-        <img src={headerimg} alt="" />
+      <div className='block md:hidden pt-[20px]'>
+        <img src={headerimg} alt="" className = 'w-[420px]' />
       </div>
 
         <div className='hidden md:block'>
@@ -72,6 +73,10 @@ function Header() {
         </div>
         </div>
       </div>
+
+      <div className = "block md:hidden pt-[20px]">
+       <img src= {text} alt=""  />
+       </div>
 
 
 
