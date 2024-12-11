@@ -21,7 +21,8 @@ function Header() {
 
 
 
-        <div className="flex justify-center items-center gap-[20px] ">
+        <div className="flex justify-between lg:justify-center items-center gap-[20px] w-[100%] lg:w-[60%] px-[20px]">
+
             <div className="flex justify-center items-center">
                 <img src={headerlogo}  alt="" />
             
@@ -45,7 +46,7 @@ function Header() {
 
             </div>
 
-            <div>
+            <div className = 'hidden lg:block'>
               <button className='w-[60px] h-[30px] rounded-[100px]  text-black text-[12px]'>Login</button>
               <button className='w-[100px] h-[30px] rounded-[100px] bg-gradient-to-r from-[#FB432C] to-[#FF591E] text-white text-[12px]'>Start for free</button>
             </div>
