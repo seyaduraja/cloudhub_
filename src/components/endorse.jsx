@@ -8,11 +8,11 @@ import l5 from "../assets/l5.png"
 import l6 from "../assets/l6.png"
 import l7 from "../assets/l7.png"
 import l8 from "../assets/l8.png"
-
+ 
 function Template(props) {
     return(
-        <div className='bg-[#F9FAFB] w-[295px] h-[175] rounded-[24px] flex justify-center items-center'>
-            <img src= {props.img} alt="" width= '220px' />
+        <div className='bg-[#F9FAFB] w-[150px] md:w-[295px] h-[175] rounded-[24px] flex justify-center items-center'>
+            <img src= {props.img} className='w-[120px] md:w-[225px]'  />
         </div>
     )
 }
@@ -33,20 +33,23 @@ function endorse() {
     <div className='flex flex-col justify-center items-center gap-[40px] py-[40px]'>
 
     
-    <h1 className='text-[50px] font-["inter"] tracking-wide font-semibold text-center text-[#121212]'>Loved By Designers At</h1>
+    <h1 className='text-[50px] font-["inter"] tracking-wide font-semibold md:text-center text-left pl-[50px] md:pl-[0px]  text-[#121212]'>Loved By Designers At</h1>
 
-    <div className='flex flex-col md:flex-row justify-center items-center gap-[20px]'>
+    <div className='flex md:flex-col justify-center items-center gap-[40px]'>
+
+    <div className='flex flex-col md:flex-row justify-center items-center gap-[20px] ' id='block'>
         <Template img= {l1} />
         <Template img= {l2} />
         <Template img= {l3} />
         <Template img= {l4} />
     </div>
 
-    <div className='flex flex-col md:flex-row justify-center items-center gap-[20px]'>
+    <div className='flex flex-col md:flex-row justify-center items-center gap-[20px]' id='block'>
         <Template img= {l5} />
         <Template img= {l6} />
         <Template img= {l7} />
         <Template img= {l8} />
+    </div>
     </div>
 
     </div>

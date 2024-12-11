@@ -5,7 +5,7 @@ import logo from "../assets/logo.png"
 function footer() {
   return (
     <>
-    <div className='w-[100%]  flex flex-col md:flex-row justify-center lg:justify-start gap-[40px] lg:gap-[120px] items-left pl-[50px]'>
+    <div className='w-[100%]  flex flex-col md:flex-row justify-center lg:justify-start gap-[40px] lg:gap-[120px] items-left pl-[50px] pb-[50px]'>
         <div >
             <img src= {logo} alt="" />
         </div>
